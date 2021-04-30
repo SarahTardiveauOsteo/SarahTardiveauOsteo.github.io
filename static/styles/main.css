@@ -663,6 +663,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			max-width: 100%;  /* Resize picture correctly on mobile */
 		}
 
 		.image.left, .image.right {
